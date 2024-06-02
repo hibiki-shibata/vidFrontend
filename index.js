@@ -24,3 +24,16 @@ document.getElementById('uploadForm').addEventListener('submit', async function(
         alert('Error uploading file');
     }
 });
+
+
+
+
+function loadVideo(filename) {
+    const videoSource = document.getElementById('videoSource');
+    videoSource.src = `http://localhost:4000/video`;
+    const videoPlayer = document.getElementById('videoPlayer');
+    videoPlayer.load();
+}
+
+// Example: Load a video with a specific filename
+loadVideo('example.mp4');
