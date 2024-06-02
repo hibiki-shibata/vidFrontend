@@ -6,18 +6,49 @@
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <h1>Upload Video</h1>
-    <form id="uploadForm" action="http://localhost:4000">
+    <h1>Upload Video To Hibiki Youtube</h1>
+    <form id="uploadForm" >
         <input type="file" id="video" accept="video/*" required>
-        <button type="submit">Upload</button>
+        <button id="fileUploadButton" type="submit">Upload</button>
     </form>
     <!-- <p id="message"></p> -->
 
+<div id="videoDivision">
 
-    <video id="videoPlayer" width="600" controls>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/tsbCSkvHhMo?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/rSjt1E9WHaQ?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/kTp5xUtcalw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/CBYHwZcbD-s?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/77ZF50ve6rs?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/LfaMVlDaQ24?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <video id="videoPlayer" width="450"  controls>
         <source id="videoSource" src="" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+    <video id="videoPlayer" width="450" controls>
+        <source id="videoSource2" src="" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video id="videoPlayer" width="450" controls>
+        <source id="videoSource3" src="" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video id="videoPlayer" width="450" controls>
+        <source id="videoSource4" src="" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video id="videoPlayer" width="450" controls>
+        <source id="videoSource5" src="" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video id="videoPlayer" width="450" controls>
+        <source id="videoSource6" src="" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    
+</div>
 
   <script src="index.js"></script>
 </body>

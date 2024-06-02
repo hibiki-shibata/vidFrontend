@@ -28,7 +28,7 @@ document.getElementById('uploadForm').addEventListener('submit', async function(
 
 
 
-function loadVideo(filename) {
+function loadVideo() {
     const videoSource = document.getElementById('videoSource');
     videoSource.src = `http://localhost:4000/video`;
     const videoPlayer = document.getElementById('videoPlayer');
@@ -36,4 +36,6 @@ function loadVideo(filename) {
 }
 
 // Example: Load a video with a specific filename
-loadVideo('example.mp4');
+loadVideo();
+
+
